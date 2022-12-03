@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    user-select: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  #sidebar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    width: 270px;
+    background-color: #002849;
+    transition: background-color 200ms;
+    transform: translateX(-270px);
+    transition: transform 250ms ease-in-out;
+    border-radius: 8px;
+  }
+  
+  #sideone {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    overflow-y: scroll;
+    margin-top: 45px;
+  }
+  #sideone > span img {
+    width: 110px;
+  }
+  #sideone > span {
+    display: flex;
+    margin-left: 50px;
+  }
+  #sideone p ,#sidetwo p{
+    color: #fff;
+    padding-right: 10px;
+  }
+  #sideone > button,
+  #sidetwo > button {
+    margin-bottom: 30px;
+    background-color: #002849;
+    padding: 5px 0 5px 10px;
+  }
+  
+  #sideone > button p,#sidetwo>button p {
+    margin-left: 40px;
+    margin-top: -25px;
+    width: 150px;
+    text-align: left;
+  }
+  #sidetwo {
+    display: flex;
+    flex-direction: column;
+  }
+  #sidetwo>button span{
+    color: #fff;
+  }
+  
+  #sidetwo>button:nth-child(1)>span{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .navbar {
+    display: grid;
+    grid-template-columns: 20% 32% 54%;
+    background: #1794ff;
+    align-items: center;
+    width: 120%;
+    padding: 5px 0 0px 0;
+  }
+  #navtwo {
+    border-left: 1px solid #1577c7;
+    border-right: 1px solid #1577c7;
+  }
+  .navbar img {
+    width: 100%;
+  }
+  button {
+    height: 30px;
+    width: 30px;
+    background: #1794ff;
+    border: none;
+  
+    margin-left: 20px;
+  }
+  #home {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  button {
+    font: 1.2em "consolas";
+    transition: transform 300ms ease;
+    z-index: 2;
+  }
+  button:active {
+    transform: scale(0.95);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  #navone {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo img {
+    width: 90px;
+  }
+  #logo {
+    margin-right: 80px;
+  }
+  .fa-bars{
+    color: #fff;
+  }
+   /* Medium screens */
+
+
+ @media all and (min-width: 401px) and (max-width: 870px) {
+    #navtwo{
+        display: none;
+    }
+    .navbar{
+      justify-content: space-between;
+    }
+
+
+
+
+
+
+
+
+}
+ /* Small screens */
+
+
+ @media all and (min-width: 100px) and (max-width: 600px) {
+    #navthree{
+        margin-left: 200px;
+    }
+    #navtwo{
+        display: none;
+    }
+    .navbar{
+      justify-content: space-between;
+    }
+
+
+
+
+
+
+
+
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Help</title>
+    <link rel="stylesheet" href="../../../index.css" />
+   <link rel="stylesheet" href="./help.css">
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="hcontainer">
+        <h1>Ayoa Help Center</h1>
+        <p>We’ve created a library of resources that will help you and your team get the most out of everything Ayoa has to offer.</p>
+    </div>
+    <div id="hcontainer1">
+      <img src="https://www.ayoa.com/wp-content/uploads/2018/08/userguides_icon.jpg" alt="">
+      <p>Help Guides</p>
+      <p>Our Help Guides provide step-by-step support for both new and experienced users. Click below to search for Help Guides for any of Ayoa’s features.</p>
+      <button>View Guides</button>
+    </div>
+    <div id="hcontainer2">
+      <p>Contact Us</p>
+      <p>If you have a problem that can’t be solved above, or a sales enquiry, get in touch with our friendly customer support team and they’ll be happy to help.</p>
+      <p>Click below to submit a query via our <span>contact form:</span></p>
+      <a href=""><button>Contact Us</button></a>
+      <p>Or, if you’d prefer, give us a call at: <span>+44 (0) 2922 745 910 </span></p>
+      <p>Need more tailored support to help your team get started with Ayoa? By booking a demo, a friendly member of our customer support team will talk you through our key features, and answer any queries you may have.</p>
+    </div>
+    <div id="footer"></div>
+    </body>
+    <script type="module">
+      let nav=document.querySelector("#navbar");
+      import navbar from '../../../assets/navbar.js'
+      nav.innerHTML=navbar();
+      let foot=document.querySelector("#footer");
+      import footer from '../../../assets/footer.js'
+      foot.innerHTML=footer();
+    </script>
+    <script src="../../assets/nav.js"></script>
+</html>
+
+

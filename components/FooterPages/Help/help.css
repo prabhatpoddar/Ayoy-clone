@@ -1,0 +1,55 @@
+#hcontainer{
+    background: url('https://www.ayoa.com//wp-content/uploads/2018/11/support_header@2x.jpg');
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+#hcontainer>h1{
+    font-size: 60px;
+    color:#fff;
+    padding-bottom: 35px;
+}
+#hcontainer>p{
+    width:40%;
+    margin: auto;
+    font-size: 20px;
+    color:#fff;
+
+}
+#hcontainer1{
+    text-align: center;
+}
+#hcontainer1>p:nth-child(2),#hcontainer2>p:nth-child(1){
+    font-size: 40px;
+    padding: 20px 0px;
+
+}
+#hcontainer1>p:nth-child(3),#hcontainer2>p:nth-child(2),#hcontainer2>p:nth-child(6){
+    width:60%;
+    line-height: 40px;
+    margin: auto;
+}
+#hcontainer1>button,#hcontainer2>a>button{
+    margin: 20px 0px;
+    padding: 15px 50px;
+    background:  rgb(0, 253, 89);
+    color: #fff;
+    font-size: 20px;
+    border: 0ch;
+    border-radius: 10px;
+
+}
+#hcontainer1>button:hover,#hcontainer2>a>button:hover{
+    background-color: green;
+}
+#hcontainer2{
+    text-align: center;
+}
+#hcontainer2>p:nth-child(3),#hcontainer2>p:nth-child(4){
+    width:40%;
+    margin: auto;
+}
+#hcontainer2>p:nth-child(3)>span,#hcontainer2>p:nth-child(5)>span{
+    font-weight: bold;
+    font-family: sans-serif;
+}

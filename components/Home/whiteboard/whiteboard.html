@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="whiteboard.css" />
+    <link rel="stylesheet" href="./../../../assets/Home_nav.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="whitenav"><div id="sidebar">
+      <div id="sideone">
+        <span>
+          <P>By</P><img src="	https://app-assets.ayoa.com/8.94.0/images/og_logo_white.svg" alt="">
+        </span>
+        <button id="sideHome">
+          <img src="https://app-assets.ayoa.com/8.94.0/images/icons/home.svg" alt="">
+          <p> Home</p>
+        </button>
+        <button>
+          <img src="https://app-assets.ayoa.com/8.94.0/images/icons/planner.svg" alt="">
+          <p> My Planer</p>
+        </button>
+        <button>
+          <img src="	https://app-assets.ayoa.com/8.94.0/images/icons/pulse.svg
+          " alt="">
+          <p> Team Pulse</p>
+        </button>
+        <button>
+          <img src="	https://app-assets.ayoa.com/8.94.0/images/icons/team.svg
+          " alt="">
+          <p>Group</p>
+        </button>
+        <button>
+          <img src="	https://app-assets.ayoa.com/8.94.0/images/icons/completed.svg" alt="">
+          <p> View Archived</p>
+        </button>
+        <button>
+          <img src="https://app-assets.ayoa.com/8.94.0/images/icons/calendar.svg
+          " alt="">
+          <p> Calender</p>
+        </button>
+        <button>
+          <img src="	https://app-assets.ayoa.com/8.94.0/images/icons/contacts.svg
+          " alt="">
+          <p>Contact</p>
+        </button>
+        <button>
+          <img src="https://app-assets.ayoa.com/8.94.0/images/icons/releasenotes.svg" alt="">
+          <p>Whats New??</p>
+        </button>
+        <button>
+          <img src="	https://app-assets.ayoa.com/8.94.0/images/icons/support.png" alt="">
+          <p> Support</p>
+        </button>
+        <button>
+          <img src="	https://app-assets.ayoa.com/8.94.0/images/icons/integrations.svg" alt="">
+          <p> Integration</p>
+        </button>
+        <button>
+          <img src="https://app-assets.ayoa.com/8.94.0/images/icons/share.svg" alt="">
+          <p> Recommended</p>
+        </button>
+      </div>
+      <div id="sidetwo">
+        <button>
+          <span>PP</span>
+          <p id="lname"></p>
+        </button>
+        <button>
+          <span><i class="fa-solid fa-gear"></i></span>
+          <p>Setting</p>
+        </button>
+
+
+        <button>
+          <span><i class="fa-solid fa-right-from-bracket"></i></span>
+          <p>LogOut</p>
+        </button>
+
+
+
+
+      </div>
+    </div>
+    <div class="navbar">
+      <div id="navone">
+        <button id="menu">
+          <input type="checkbox" name="" id="sidecheck" style="display: none" />
+          <label for="sidecheck" id="lab"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+        </button>
+        <button id="logo">
+          <img
+            src="https://app-assets.ayoa.com/8.94.0/images/icons/ayoa.svg"
+            alt="Logo"
+          />
+        </button>
+      </div>
+      <div id="navtwo">
+        <button>
+         
+          <img
+            src="https://app-assets.ayoa.com/8.94.0/images/icons/home.svg"
+            alt="Home"
+          />
+        </button>
+        <button>
+          <img
+            src="https://app-assets.ayoa.com/8.94.0/images/icons/pulse.svg"
+            alt="Task list"
+          />
+        </button>
+        <button>
+          <img
+            src="	https://app-assets.ayoa.com/8.94.0/images/icons/planner.svg"
+            alt="Notification"
+          />
+        </button>
+        <button>
+          <img
+            src="	https://app-assets.ayoa.com/8.94.0/images/icons/notifications-icon.png"
+            alt=""
+          />
+        </button>
+        <button>
+          <img
+            src="https://app-assets.ayoa.com/8.94.0/images/icons/search-icon.png
+          "
+            alt="Search"
+          />
+        </button>
+      </div>
+      <div id="navthree">
+        <button id="home">Home</button>
+      </div>
+    </div>
+</div>
+    <div id="pen-tools" class="pen-tools">
+      <div id="drawing-colors" class="drawing-colors">
+        <div class="color-circle active" data-color="hotpink" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="orange" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="red" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="yellow" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="black" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="blue" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="white" onclick="selectColor(this)"></div>
+        <div class="color-circle" data-color="green" onclick="selectColor(this)"></div>
+      </div>
+      <div id="favContainer">
+        <label for="favcolor"></label>
+        <input type="color" name="favcolor" id="favcolor" value="#ff0000" onchange="favColor(this)" />
+      </div>
+
+      <div id="pen-size" class="pen-size">
+        <label for="pen-size"><i class="fa fa-pencil"></i>Pen Size</label>
+        <input type="range" name="pen-size" class="pencil" id="pen-size" value="10" step="2" min=".4" max="40"
+          onchange="penSizeChange(this.value)" />
+      </div>
+      <p>
+        <a href="" download="my_painting.png"><i class="fa-solid fa-download"></i></a>
+      </p>
+      <button id="clear">Clear</button>
+    </div>
+    <div id="container">
+      <div id="feature">
+        <div>
+          <button><i class="fa-solid fa-bars"></i></button>
+          <button onclick="tfunc()"><i class="fa-solid fa-t"></i></button>
+          <button><i class="fa-solid fa-image"></i></button>
+          <button><i class="fa-solid fa-file"></i></button>
+          <button onclick="erase()"><i class="fa-solid fa-eraser"></i></i></button>
+
+          <button onclick="pencil()"><i class="fa-solid fa-pen"></i></button>
+        </div>
+        
+      </div>
+
+      <div class="board">
+        <canvas width="1110px" height="590px"> </canvas>
+      </div>
+    </div>
+  </body>
+
+</html>
+<script src="whiteboard.js"></script>
+<script src="./../user.js"></script>
+<!-- <script type="module">
+  let nav = document.querySlector("#whitenav");
+  import home_nav from './../../../assets/Home_nav.js'
+  nav.innerHTML = home_nav();
+  
+</script> -->

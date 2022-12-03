@@ -1,0 +1,100 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+#login{
+    width:100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+input[type="email"], input[type="password"]{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: bold; 
+  border: 1px solid rgba(128, 128, 128, 0.179);
+  border-radius: 50px; 
+  padding: 10px 10px;
+  width: 300px;
+}
+input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover{
+    border: 1px solid rgb(39, 130, 191);
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50px; 
+    padding: 10px 10px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    margin-top: 25px;
+    font-size: 15x;
+    margin-bottom: 15px;
+    background: #1794ff;
+    width: 300px;
+    height: 40px;
+    border: 0ch;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    font-size: 15x;
+    margin-bottom: 15px;
+    padding: 10px 80px;
+    background: #0f5a9b;
+    border: 0ch;
+    color: #fff;
+    border-radius: 50px;
+}
+#login>p:nth-child(4){
+    color: lightslategrey;
+}
+span>a{
+    color:#1794ff;
+    text-decoration: none;
+}
+img{
+    width:86px;
+    height: 86px;
+}
+
+
+
+
+#SigninToAyoa{
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight:200 ;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.702);
+}
+
+#someText{
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.786);
+    font-weight: 600;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+hr{
+    width: 40%;
+    border:1px solid rgba(0, 0, 0, 0.092);
+}
+#someLine{
+    margin-top: 60px;
+}
+#someText a{
+    color: #1794ff;
+}

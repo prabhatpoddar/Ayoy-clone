@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    padding: 30px;
+    color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#faq>p{
+    width:70%;
+    margin: auto;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+h4{
+    width:60%;
+    margin: auto;
+    padding-top: 50px;
+}
+#faq>div>p{
+    width:60%;
+    margin: auto;
+    color: rgb(135, 131, 131);
+    line-height: 20px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,168 @@
+#header{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to top,white,blue);
+    display: flex;
+    justify-content: space-between;
+}
+#header div{
+    margin-left: 20px;
+}
+#header img{
+    width: 30%;
+    height: 250px;
+    margin: 60px 0px 0px 200px;
+}
+#header h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 60px;
+   
+}
+#header p{
+    width: 70%;
+    font-size: 30px;
+}
+#header input{
+    width: 15rem;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+#header button{
+    width: 10rem;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color:rgb(76, 76, 235);
+    margin-top: 15px;
+    border-style: none;
+}
+#header button :hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#header button a{
+color: white;
+text-decoration: none;
+}
+#mid{
+
+    width: 100%;
+    height: 80px;
+    background-color:  rgb(92, 92, 92);
+    padding-top: 10px;
+}
+#mid p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#mid2{
+    width: 100%;
+    height: 400px;
+    background-color:#c8eef1;
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+}
+#mid2 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+}
+#mid2 div{
+    width: 30%;
+    margin-right:100px;
+    
+}
+#mid2 div h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mid2 div p{
+    font-size: 20px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+#mid23{
+    width: 100%;
+    height: 350px;
+    background-color:#92b3ec;
+    background-image: url("");
+    display: flex;
+    justify-content:space-around;
+    padding-top: 80px;
+}
+#mid23 img{
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+}
+#mid23 div{
+    width: 30%;
+    padding-left: 100px;
+    
+}
+#mid23 div h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#mid23 div p{
+    font-size: 20px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+}
+#mid24{
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(to right,white,#e8d120);
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+}
+#mid24 img{
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+}
+#mid24 div{
+    width: 30%;
+    margin-right:100px;
+    
+}
+#mid24 div h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mid24 div p{
+    font-size: 20px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+#mid234{
+    width: 100%;
+    height: 350px;
+    background-image: url("");
+    display: flex;
+    justify-content:space-around;
+    padding-top: 80px;
+}
+#mid234 img{
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+}
+#mid234 div{
+    width: 30%;
+    padding-left: 100px;
+    
+}
+#mid234 div h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mid234 div p{
+    font-size: 20px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}

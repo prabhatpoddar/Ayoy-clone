@@ -1,0 +1,161 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+#sign{
+    display: grid;
+    grid-template-columns: 30% 65%;
+    text-align: center;
+    gap: 60px;
+}
+#sign>#ratingg{
+    width: 90%;
+    background: #089AFF;
+    height: 100%;
+    padding: 30px;
+}
+#ratingg h5{
+    color: #fff;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#ratingg>p:nth-child(2){
+    color: lightgrey;
+}
+#ratingg>p:nth-child(3){
+    width:100%;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 20px;
+    color: #fff;
+}
+#ratingg>img{
+    margin-top: 0px;
+}
+#ratingg>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#ratingg>div>div:nth-child(1)>img{
+    width: 100px;
+    height: 80px;
+    margin-top: 30px;
+}
+#ratingg>div>div:nth-child(2)>strong,#ratingg>div>div:nth-child(2)>p{
+    color: #fff;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+#ratingg>img:nth-child(7){
+    width:50%;
+    margin: auto;
+}
+#signupp{
+    width:40%;
+    margin:auto;
+}
+#signupp>img:nth-child(1){
+    width:60%;
+    margin-bottom: 30px;
+}
+#signupp>p:nth-child(2){
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+  
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    padding: 10px 10px;
+    width: 300px;
+    border: 1px solid rgba(174, 174, 174, 0.378);
+    font-size: 12px;
+    font-weight: 500;
+    border-radius:20px ;
+    color: black;
+    margin: 10px;
+}
+input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover{
+    border: 1px solid rgb(39, 130, 191);
+}
+#signupp>div{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+#signupp>div>div:nth-child(1){
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+#signupp>div>div:nth-child(2)>p{
+    text-align: left;
+    color: rgb(114, 112, 112);
+    line-height: 20px;
+    font-size: 10px;
+}
+#signupp>button{
+    border-radius: 16.5px;
+    background: linear-gradient(180deg, #75c5fe 0%, #0390fc 100%);
+    border: none ;
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 80px;
+    font-size: 16.4px;
+    cursor: pointer;
+
+}
+#signupp>button:hover{
+    border-radius: 16.5px;
+    background: linear-gradient(180deg, #089AFF 0%, #003a6a 100%);
+    /* border: 1px solid #008DF0 ; */
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 80px;
+    font-size: 16.4px;
+    cursor: pointer;
+
+}
+#signupp>strong>a{
+    text-decoration: none;
+    color: #0D96FF;
+}
+#cc{
+    font-size: 12px;
+    color: rgb(121, 121, 121);
+    margin-bottom: 60px;
+}
+.img{
+    width:50%
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 500px){
+    #sign{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    #sign>div{
+        padding: 0px  0px 0px 0px;
+    }
+    input[type="text"],input[type="email"],input[type="password"]{
+        padding: 7px 0px;
+        border: 1px solid rgb(141, 188, 219);
+        font-size: 16px;
+        font-weight: 500;
+        border-radius:20px ;
+        margin: 10px;
+    }
+    #signupp>button{
+        border-radius: 16.5px;
+        background: linear-gradient(180deg, #089AFF 0%, #0D96FF 100%);
+        border: 1px solid #008DF0 ;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 10.4px;
+    
+    }
+}

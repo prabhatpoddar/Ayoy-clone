@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
+        <title>Press</title>
+    <link rel="stylesheet" href="press.css">
+    <link rel="stylesheet" href="../../../index.css">
+
+</head>
+<body>
+   <div id="navbar"></div>
+    <div id="mainLogoDiv">
+        <img src="https://www.ayoa.com/wp-content/uploads/2022/04/ayoaandopengenius.png" alt="">
+        <h1>in the news</h1>
+    </div>
+    <div id="featuredDiv">
+        <h1>Featured</h1>
+
+        <div id="gridDiv">
+
+
+            <div style="background-color: #fc1476;">
+                <img src="https://i.ytimg.com/vi/f13sWvySFNA/maxresdefault.jpg" alt="">
+                <h1>CEO Chris Griffiths talks creativity</h1>
+                <p>BBC WORLD NEWS</p>
+            </div>
+
+            
+            <div style="background-color: #b426fb;">
+                <img src="https://i.guim.co.uk/img/media/b4980ec2cad19b6ed7d3baaf872045ceadc65403/0_313_5434_3261/master/5434.jpg?width=620&quality=85&fit=max&s=bf835ab15ea62d0c026bd2876ff38f11" alt="">
+                <h1>20 best apps to keep you organized</h1>
+                <p>THE GUARDIAN</p>
+            </div>
+
+            
+            <div style="background-color: #1dbd60;">
+                <img src="https://imageio.forbes.com/specials-images/imageserve/5e99da9a8aaec600078b33c6/Two-girlfriends-on-pink-wall-backdrop-snapping-with-retro-cameras/960x0.jpg?format=jpg&width=960" alt="">
+                <h1>Sparking creativity in a time of crisis</h1>
+                <p>FORBES</p>
+            </div>
+
+            
+            <div style="background-color: #fdb32b;">
+                <img src="https://www.thoughtco.com/thmb/CUuFs-XQS-eWk4b9act8xu-11uc=/1500x844/smart/filters:no_upscale()/3-D_DNA-56a09ae45f9b58eba4b20266.jpg" alt="">
+                <h1>The link between DNA and creativity</h1>
+                <p>IRISH TECH NEWS</p>
+            </div>
+
+            
+            <div style="background-color: #20c2fc;">
+                <img src="https://bmmagazine.co.uk/wp-content/uploads/2017/09/shutterstock_289765691-e1504613896950.jpg" alt="">
+                <h1>How to nurture your childlike creativity</h1>
+                <p>BUSINESS MATTERS</p>
+            </div>
+
+            
+            <div style="background-color: #b426fb;">
+                <img src="https://www.thetimes.co.uk/d/img/notfound-43d7a78920.png" alt="">
+                <h1>Why agile failure can lead to success</h1>
+                <p>THE TIMES</p>
+            </div>
+
+        </div>  
+        
+    </div>
+    <hr id="aLine">
+    
+    <h1 id="centerHeading">Print</h1>
+    <p id="centerPara">A selection of print outlets we've apeared in</p>
+
+    <div id="posterDiv">
+        <img src="https://www.ayoa.com/wp-content/uploads/2022/04/978-981-16-4237-1-book.jpg" alt="">
+        <img src="https://www.ayoa.com/wp-content/uploads/2019/08/mag_smartmanager.jpg" alt="">
+        <img src="https://www.ayoa.com/wp-content/uploads/2019/08/mag_insider.jpg" alt="">
+        <img src="https://www.ayoa.com/wp-content/uploads/2019/08/mag_indianmanagment2.jpg" alt="">
+        <img src="https://www.ayoa.com/wp-content/uploads/2019/08/mag_indianmanagment.jpg" alt="">
+        <img src="https://www.ayoa.com/wp-content/uploads/2019/08/mag_director.jpg" alt="">
+        <img src="https://www.ayoa.com/wp-content/uploads/2019/08/mag_hrd.jpg" alt="">
+        <img src="https://www.ayoa.com/wp-content/uploads/2019/08/mag_hr.jpg" alt="">
+    </div>
+
+    <hr id="aLine">
+
+    <h1 id="centerHeading">All Articles</h1>
+
+
+    <!-- articles -->
+
+    <div id="emptyDiv"></div>
+    <div id="footer"></div>
+</body>
+<script src="press.js"></script>
+<script type="module">
+    let nav=document.querySelector("#navbar");
+    import navbar from '../../../assets/navbar.js'
+    nav.innerHTML=navbar();
+    let foot=document.querySelector("#footer");
+    import footer from '../../../assets/footer.js'
+    foot.innerHTML=footer();
+  </script>
+  <script src="../../assets/nav.js"></script>
+</html>

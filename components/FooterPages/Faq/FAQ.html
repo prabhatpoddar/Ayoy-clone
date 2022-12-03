@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="../../../index.css">
+</head>
+<body>
+  <div id="navbar"></div>
+  <div id="faq">
+        <h1>FAQs</h1>
+        <p>Find answers below to the questions we get asked most about Ayoa. If your answer isn’t here, drop us an email at support@ayoa.com and we’ll be happy to help.</p>
+        <div>
+          <h4>Do you offer any discounts for Ayoa?</h4>
+          <p>Yes! You can make a saving when you opt for one of our yearly plans. We also have a special rate for non-profit and educational (see below) organizations. Get in touch at support@ayoa.com to get your quote.</p>
+          <h4>How can I claim the education discount?</h4>
+          <p>If you are a student or an educator, you could qualify for a discount on our annual plans. Simply sign up with a valid education email address provided by your institution so we can verify you. If you’ve signed up with your personal email address instead, don’t worry, you can verify your education email later. Need a hand? Email us at support@ayoa.com.</p>
+          <h4>Are you planning on adding new features to Ayoa?</h4>
+          <p>Of course! We pay very close attention to all of the feedback that we receive, and always strive to make any additions or changes that will improve Ayoa’s functionality. Check out our Product Roadmap to see all the new features coming soon. If you have any feature requests that you’d like to see in the app, please email us at support@ayoa.com.</p>
+          <h4>How can I keep up to date with what’s going on with Ayoa?</h4>
+          <p>To keep in the loop of all things Ayoa, head over to our blog where you will find tips and tricks on how best to use the app and important information about recent developments. Don’t forget to follow us on social media. Find us on Facebook and Twitter where you’ll find hints and exclusive updates on features that are coming soon.</p>
+          <h4>Are there mobile, tablet and desktop apps for Ayoa?</h4>
+          <p>Yes! Ayoa is available to download on Desktop (Windows & Mac), iOS (iPhone & iPad) and Android devices. This way you can enjoy idea generation and task management on the move, with exclusive offline capability. Visit our apps page to download. For more information regarding working offline, see the question below.</p>
+          <h4>Can I work offline with Ayoa?</h4>
+          <p>Yes! But there are limitations to working offline with Ayoa. Ayoa is a cloud-based app; the data is stored online rather than locally and you will require the internet to log in. Once you’ve logged in you can work offline if required (for example, if you’re on public transport with no reliable internet connection), however, until you go online again none of that data can be synced to the servers. This means that any Task Boards you have updated would not be updated on other devices until you connect to the internet and the information is synced. Therefore, if you prefer to work offline, we would recommend that you connect to the internet at regular intervals to ensure your data is synced. Please note that file attachments cannot be accessed offline; if you require these documents before going offline, we recommend you download them prior to disconnecting from the internet. If you work offline you will not be able to collaborate with others.</p>
+          <h4>Are all of your features available on all devices?</h4>
+          <p>Some of Ayoa’s features are not available on the Desktop, iOS and Android apps. Please see our full list of features and app availability for more information on which features can be accessed on each device.</p>
+          <h4>How secure is my data with Ayoa?</h4>
+          <p>Ayoa uses 256-bit TLS encryption technology (sometimes known as SSL, and as used by most online banking sites) for all communication between your computer and our servers. Our databases are hosted securely within the Amazon EC2 cloud computing platform, monitored 24/7 by an on-call team and backed up regularly. We are currently on track to be 27001 ISO compliant by 2020. To find out more about the security of your data, visit our Privacy Policy or view our full Security features.</p>
+          <h4>How do I share my mind maps with others?</h4>
+          <p>You can share your mind maps with anyone and everyone. Simply ask the people you’d like to share your map with to create an Ayoa account and invite them to your mind map. Depending on the permissions you’ve granted them, they’ll be able to view, edit, comment and add branches to your mind map.</p>
+
+          <h4>Can I sync my boards to my phone?</h4>
+          <p>Ayoa seamlessly syncs all of your work across the devices that you’re using. If you’ve created a board on your computer and want to access it on your phone, simply open the Ayoa app on your mobile device and ta-dah, your work will appear ready for you to edit.</p>
+        </div>
+  </div>
+  <div id="footer"></div>
+</body>
+<script type="module">
+  let nav=document.querySelector("#navbar");
+  import navbar from '../../../assets/navbar.js'
+  nav.innerHTML=navbar();
+  let foot=document.querySelector("#footer");
+  import footer from '../../../assets/footer.js'
+  foot.innerHTML=footer();
+</script>
+<script src="../../assets/nav.js"></script>
+<script src="./Scripts/nav.js"></script>
+</html>  

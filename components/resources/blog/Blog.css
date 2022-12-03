@@ -1,0 +1,114 @@
+#container{
+    padding-top: 100px;
+    
+}
+#container>p,#container1>p{
+    text-align: center;
+    font-size: 25px;
+    color: darkgrey;
+    padding: 20px 0px 35px 0px;
+}
+#container>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#container>div>div>img{
+    width:80%;
+}
+
+#container>div>div:nth-child(2)>p:nth-child(1){
+    color: grey;
+   padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+#container>div>div:nth-child(2)>h3{
+   line-height: 50px;
+}
+#container>div>div:nth-child(2)>p:last-child{
+   padding-top: 50px;
+    font-size: 20px;
+}
+#container1{
+    padding: 50px;
+}
+#container1>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+#container1>div>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+#container1>div>div>img{
+    width:90%;
+    padding: 20px;
+}
+#container1>div>div>h2{
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+#container1>div>div>h1{
+    font-size: 20px;
+    padding: 5px 20px;
+}
+#container1>div>div>p{
+    font-size: 20px;
+    padding: 10px 20px;
+    color: lightgray;
+}
+#container2{
+background: #2E85E8;
+background: -webkit-linear-gradient(top, #2E85E8, #032742);
+background: -moz-linear-gradient(top, #2E85E8, #032742);
+background: linear-gradient(to bottom, #2E85E8, #032742);
+width:70%;
+border-radius: 10px;
+margin: auto;
+margin-top: 50px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+#container2>div:nth-child(1)>img{
+    width:60%;
+    padding: 50px 0px 50px 50px;
+
+}
+#container2>div:nth-child(2)>h1{
+    color: white;
+    padding-top: 60px;
+}
+#container2>div:nth-child(2)>p{
+    color: white;
+    padding-top: 5px;
+    font-size: 20px;
+}
+#container2>div:nth-child(2)>a>button{
+    color: white;
+    background: green;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding: 15px 80px;
+    font-size: 20px;
+    border:0ch;
+    border-radius: 10px;
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 850px){
+    #container1>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+    }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 850px){
+    #container1>div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:20px;
+    }
+}

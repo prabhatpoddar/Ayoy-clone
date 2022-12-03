@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar With Tooltip On Hover</title>
+    <link rel="stylesheet" href="mind-map.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./../../../assets/Home_nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./../../../assets/Home_nav.css">
+
+    
+</head>
+<body>
+    <div id="mindnav"></div>
+    <nav id="navbar">
+        <div id="public">
+            <a href="#" class="ar"onclick="undo()" style="--icons:url(./icons/left.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Undo</span></a>
+            <a href="#" class="ar"style="--icons:url(./icons/right.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span id="redo">Redo</span></a>
+            <a href="#" class="ar"style="--icons:url(./icons/emoji.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Emoji</span></a>
+            <a href="#" class="ar"style="--icons:url(./icons/thumb.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Vote</span></a>
+            <a href="#" class="ar"style="--icons:url(./icons/comment.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Comments</span></a>
+            <a href="#" class="ar"style="--icons:url(./icons/format.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Format</span></a>
+            <a href="#" class="ar"  style="--icons:url(./icons/notes.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"id="notes"><span>Notes</span></a>
+            <!-- <a href="#" style="--icons:url(./icons/attachments.svg)"><span>Attachments</span></a> -->
+        </div>
+        <div id="admin">
+            <a href="#" class="ar" onclick="share()"style="--icons:url(./icons/share.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Share</span></a>
+            <a href="#" class="ar"onclick="credit()" style="--icons:url(./icons/present.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Credit</span></a>
+            <a href="#" class="ar"style="--icons:url(./icons/display.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Display options</span></a>
+            <a href="#" class="ar"style="--icons:url(./icons/board.svg);color:black;font-size:20px;font-weight:600;font-style: oblique;"><span>Board options</span></a>
+
+        </div>
+    </nav>
+
+<div id="container">
+
+    <div id="btn">+</div>
+    <div id="left"></div>
+     <!-- <div class="hr"></div> -->
+    <div><textarea id="text"  cols="50"></textarea>
+    <div><input id="btn2" type="checkbox"onclick="btn2()"/></div>
+     </div>
+     <!-- <div class="hr"></div> -->
+     <div id="right"></div>
+    <div id="btn1">+</div>
+    </div>
+        </div>
+    </body>
+<script src="./scripts/mind-map.js">
+</script>
+</html>
+
+<script type="module">
+    let nav = document.querySelector("#mindnav");
+    import home_nav from './../../../assets/Home_nav.js'
+    nav.innerHTML = home_nav();
+    console.log(home_nav())
+  </script>
+
+

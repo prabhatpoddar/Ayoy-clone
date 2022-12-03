@@ -1,0 +1,241 @@
+*{
+    font-family: sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 19px;
+}
+#main{
+    width: 95%;
+    margin: auto;
+}
+#main>div{
+    width: 58%;
+    /* margin: auto; */
+}
+#ayoaUltimateLogoDiv{
+    width: 230px;
+    margin-top: 150px;
+    display: flex;
+    height:45px;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50px;
+    text-align: center;
+    gap: 7.5px;
+    background-color: rgb(238, 44, 102) ;
+    color: white;
+    font-size: 25px;
+}
+#ayoaUltimateLogoDiv>img{
+    width: 40%;
+    margin-left: 15px;
+    /* margin: auto; */
+}
+#main{
+    display: flex;
+    /* width: 0%; */
+    margin-bottom: 100px;
+}
+#productivityImg{
+    width: 50%;
+    margin: auto;
+}
+#mindMappingHeading{
+    font-size: 55px;
+
+}
+#difcolONe{
+    color: #555454;
+}
+#inputDiv{
+    border: 10px solid #00a9fd2c;;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#emailInput{
+    height: 60px;
+    width: 60%;
+    border: none;
+}
+#getStartedButton{
+    width: 40%;
+    background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+    border: none;
+    color: white;
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#getStartedButton:hover{
+    width: 40%;
+    background-image:  linear-gradient(to bottom, #1b262c, #00293ee1);
+    border: none;
+    color: rgb(0, 157, 248);
+    font-size: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#benifitsDiv{
+    display: flex;
+    gap: 40px;
+}
+#benifitsDiv p{
+    text-align: center;
+    color: #555454;
+}
+#benifitsDiv p span{
+    color: #32b6f8;
+    font-size: 25px;
+}
+#learnMoreButton{
+    margin-top: 30px ;
+}
+#mindMappingHeading{
+    width: 100%;
+}
+#learnMoreButton{
+    font-size: 25px;
+    padding: 7px 15px;
+    border: 2px solid #979797;
+    color: #555454;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#learnMoreButton:hover{
+    font-size: 25px;
+    padding: 7px 15px;
+    border: 2px solid #32b6f8;
+    color: #32b6f8;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+video{
+    width: 60%;
+}
+#mindMappingHeading{
+    font-family: sans-serif;
+}
+#aiacceleration{
+    font-size: 55px;
+}
+#aiacceleration span{
+    font-size: 55px;
+    color: #32b6f8;
+}
+ /* gird */
+
+ #gridMainDiv{
+    background-color: #033349;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+ }
+ #gridMainDiv h1{
+    font-size: 55px;
+    color: #32b6f8;;
+ }
+ #gridMainDiv p{
+    width: 75%;
+    font-size: 25px;
+    margin: auto;
+ } 
+ #girdDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+ }
+ #girdDiv>div img{
+    width: 100%;
+    border-radius: 12px;
+ }
+ #girdDiv>div h1{
+    font-size: 28px;
+ }
+ #girdDiv>div p{
+    font-size: 17px;
+    width: 100%;
+ }
+ #girdDiv>div{
+    margin-top: 20px ;
+ }
+ #getStatrforfreeDiv{
+    margin-top: 90px;
+    margin-bottom: 60px;
+
+ }
+ #getStatrforfreeInput{
+    height: 45px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+ }
+ #getStatrforfreeButton{
+    height: 46px;
+    width: 200px;
+    background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+    border: 2px solid #0395df;
+    color: white;
+    /* font-size: 25px; */
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ #getStatrforfreeButton:hover{
+    height: 46px;
+    width: 200px;
+    background-image:  linear-gradient(to bottom, #32b6f8 , #0395df);
+    border: 2px solid #fff;
+    color: white;
+    /* font-size: 25px; */
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ #lastCont{
+    margin-top: 150px;
+}
+#lastCont h1{
+    text-align: center;
+    font-size: 55px;
+ }
+ #imgParaDiv{
+    width: 80%;
+    margin: auto;
+    display: flex;
+ }
+ #lastCont p{
+    margin-left: 50px;
+ }
+ #lastCont button{
+    padding: 5px 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: orange ;
+    border: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+  #lastCont button:hover{
+    padding: 5px 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(197, 129, 3) ;
+    border: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ #lastCont img{
+    width: 60%;
+    height: 60%;
+ }

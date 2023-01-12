@@ -1,4 +1,5 @@
 # grouchy-diiner-9447
+Visit:- https://tiny-rugelach-e3e0ee.netlify.app/
 
 ```python
   Team members
@@ -14,18 +15,18 @@
 <p>
 
 ```ruby
-  Karthik 
+  Prabhat
 ```
 
 </p>
   
-> Responsive Navbar & Footer<br/>
-> Dropdown menu<br/>
-> Sign in <br/>
-> Sign Up <br/>
+> Home Page <br/>
+> WhiteBoard<br/>
+> Navbar <br/>
+> Footer<br/>
 
 Every page is responsive<br/>
 
 <img src ="https://www.ayoa.com/wp-content/uploads/2020/07/ayoa_procomputer2.png" alt="ayoa"/>
 
-Visit https://tiny-rugelach-e3e0ee.netlify.app/
+
